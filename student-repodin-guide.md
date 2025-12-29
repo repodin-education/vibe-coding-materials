@@ -1,13 +1,5 @@
 # Vibe Coding Course: RepodIn Student Dashboard Guide
 
-> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
-
-**Document Version:** 1.0
-**Last Updated:** 2025-12-20
-**Status:** Production
-**Maintainer:** RepodIn Education Team
----
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -337,6 +329,7 @@ RepodIn Student Dashboard provides:
 ---
 
 **Next Review Date:** 2026-03-20
+
 
 
 
