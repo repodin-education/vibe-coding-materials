@@ -1,13 +1,5 @@
 # Vibe Coding Course: Student Quick Start Guide
 
-> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
-
-**Document Version:** 1.0
-**Last Updated:** 2025-12-20
-**Status:** Production
-**Maintainer:** RepodIn Education Team
----
-
 ## Table of Contents
 
 - [Course Overview](#course-overview)
@@ -438,6 +430,7 @@ python server/app.py
 ---
 
 **Next Review Date:** 2026-03-20
+
 
 
 
