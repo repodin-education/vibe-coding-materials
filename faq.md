@@ -1,13 +1,5 @@
 # Vibe Coding Course: Frequently Asked Questions
 
-> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
-
-**Document Version:** 1.0
-**Last Updated:** 2025-12-20
-**Status:** Production
-**Maintainer:** RepodIn Education Team
----
-
 ## Table of Contents
 
 - [Setup Questions](#setup-questions)
