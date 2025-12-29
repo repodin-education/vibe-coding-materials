@@ -2,7 +2,7 @@
 
 > **"Opi käyttämään AI-työkaluja tehokkaasti koodaamiseen – rakentamalla oikeita projekteja"**
 
-**Kurssin kesto:** 1–2 viikkoa osa-aikaisesti (6–10 tuntia)
+**Kurssin kesto:** 6–10 tuntia
 **Taso:** Aloittelija → Pro-foundations
 **Alusta:** GitHub Classroom
 **Hinta:** Ilmainen (GitHub Classroom + Cursor AI free tier)
@@ -425,7 +425,7 @@ Tämä kurssi opettaa sinut käyttämään AI-työkaluja niin, että saat aikaan
 
 ---
 
-**Kurssin kesto:** 1–2 viikkoa osa-aikaisesti (6–10 tuntia)
+**Kurssin kesto:** 6–10 tuntia
 **Taso:** Aloittelija → Pro-foundations
 **Alusta:** GitHub Classroom
 **Hinta:** Ilmainen (GitHub Classroom + Cursor AI free tier)
