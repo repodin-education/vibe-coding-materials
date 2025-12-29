@@ -1,13 +1,5 @@
 # Vibe Coding Course: Autograding Configuration Guide
 
-> **"RepodIn Education is a teacher-first management and analytics layer on top of GitHub Classroom."**
-
-**Document Version:** 1.0
-**Last Updated:** 2025-12-20
-**Status:** Production
-**Maintainer:** RepodIn Education Team
----
-
 ## Table of Contents
 
 - [Overview](#overview)
