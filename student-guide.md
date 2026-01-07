@@ -50,7 +50,7 @@
 Before starting, you should be comfortable with:
 
 - [ ] Basic programming (variables, functions, control flow)
-- [ ] At least one programming language (JavaScript or Python)
+- [ ] Basic JavaScript knowledge (or willingness to learn with AI)
 - [ ] Basic HTML and JavaScript
 - [ ] Command line basics
 - [ ] Git basics (clone, commit, push)
@@ -60,7 +60,7 @@ Before starting, you should be comfortable with:
 You'll need to install:
 
 - [ ] Cursor AI
-- [ ] Node.js (v18+) **OR** Python (v3.11+)
+- [ ] Node.js (v18+)
 - [ ] Git
 - [ ] Code editor (VS Code recommended)
 - [ ] GitHub account
@@ -78,8 +78,34 @@ You'll need to install:
 5. Sign up for free account (free tier is sufficient)
 
 **Verify installation:**
+
 - Open Cursor
 - You should see the editor interface
+
+**Learn more:**
+- Watch the official installation guide: [Building with Cursor - Step 1: Installing and Setting Up Cursor](https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d)
+
+### 1.1 Understanding Cursor's Interface
+
+After installing Cursor, take a moment to familiarize yourself with the interface:
+
+**Key Interface Elements:**
+- **Editor pane:** Where you write and edit code
+- **Chat panel:** Where you interact with Cursor AI (`Cmd+K` / `Ctrl+K`)
+- **Composer:** Multi-file editing mode (`Cmd+I` / `Ctrl+I`)
+- **File explorer:** Navigate your project files
+- **Terminal:** Run commands and see output
+
+**Basic Keyboard Shortcuts:**
+- `Cmd+K` / `Ctrl+K` - Open chat panel
+- `Cmd+I` / `Ctrl+I` - Open Composer (multi-file editing)
+- `Cmd+L` / `Ctrl+L` - Toggle chat history
+- `Cmd+Shift+P` / `Ctrl+Shift+P` - Command palette
+
+**Learn more:**
+- Watch the official interface guide: [Building with Cursor - Step 2: Overview of Cursor's Interface](https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d)
+
+**Pro tip:** Spend 5-10 minutes exploring the interface before starting assignments. Try opening the chat panel and asking Cursor a simple question to test it out.
 
 ### 2. Install Node.js (for Node.js students)
 
@@ -89,6 +115,7 @@ You'll need to install:
 4. Follow installation wizard
 
 **Verify installation:**
+
 ```bash
 node --version
 # Should show v18.x.x or higher
@@ -97,19 +124,17 @@ npm --version
 # Should show version number
 ```
 
-### 3. Install Python (for Python students)
+### 3. Verify Node.js Installation
 
-1. Go to [python.org](https://python.org)
-2. Download **Python 3.11 or higher**
-3. Run installer
-4. **Important:** Check "Add Python to PATH" during installation
+Make sure Node.js is working correctly:
 
-**Verify installation:**
 ```bash
-python --version
-# Should show Python 3.11.x or higher
+# Check Node.js version
+node --version
+# Should show v18.x.x or higher
 
-pip --version
+# Check npm (comes with Node.js)
+npm --version
 # Should show version number
 ```
 
@@ -121,6 +146,7 @@ pip --version
 4. Use default settings
 
 **Verify installation:**
+
 ```bash
 git --version
 # Should show version number
@@ -132,8 +158,8 @@ git --version
 2. Download for your operating system
 3. Run installer
 4. Install recommended extensions:
-   - Python (if using Python)
-   - JavaScript/TypeScript (if using Node.js)
+   - JavaScript/TypeScript
+   - ESLint (optional, for code quality)
 
 ### 6. Create GitHub Account
 
@@ -147,25 +173,35 @@ git --version
 
 ## GitHub Classroom Setup
 
-### 1. Accept Classroom Invitation
+### 1. Join Course Using Invitation Link
 
-1. Check your email for GitHub Classroom invitation
-2. Click **Accept invitation** link
-3. Sign in to GitHub if needed
-4. You'll be redirected to the classroom
+1. **Click the invitation link:**
 
-### 2. Join Classroom
+   - [👉 Join Vibe Coding Course →](https://classroom.github.com/a/zHOCUqGM)
+   - Or use the link provided by your teacher
 
-1. In GitHub Classroom, you'll see the course
-2. Click **Join classroom**
-3. Verify your GitHub username is correct
-4. You're now enrolled!
+2. **Sign in to GitHub:**
 
-### 3. Verify Access
+   - If not logged in, GitHub will ask you to sign in
+   - Use your GitHub account (or create one at [github.com](https://github.com))
 
-- [ ] You can see the classroom
-- [ ] You can see assignments
+3. **⚠️ If you see a name list (roster):**
+
+   - **Click "Skip to the next step" link** (usually at the bottom of the page)
+   - This skips the name list and lets you join directly
+   - **You don't need to select your name** - you can always skip this step!
+
+4. **Accept the assignment:**
+   - You'll see the course: **"Vibe Coding 2026"**
+   - Click **"Accept this assignment"** or **"Accept"**
+   - You'll automatically join the classroom too!
+
+### 2. Verify Access
+
+- [ ] You can see the classroom: **"Vibe Coding 2026"**
+- [ ] You can see assignments in the **Assignments** tab
 - [ ] Your GitHub username is correct
+- [ ] You can see your own repositories
 
 ---
 
@@ -222,10 +258,12 @@ git --version
 ### Using Cursor AI
 
 1. **Start a chat:**
+
    - Press `Cmd+K` (Mac) or `Ctrl+K` (Windows/Linux)
    - Type your request
 
 2. **Example prompts:**
+
    - "Create a Node.js Express server with an endpoint /api/hello that returns { message: 'Hello Vibe!' }"
    - "Create an HTML page that fetches from /api/hello and displays the message"
 
@@ -239,18 +277,20 @@ git --version
 1. **Edit files** in Cursor
 2. **Save files** (Cmd+S / Ctrl+S)
 3. **Test your code:**
-   - Run server: `npm start` or `python server/app.py`
+   - Run server: `npm start` or `node server/index.js`
    - Open HTML in browser
    - Verify it works
 
 ### Committing Changes
 
 1. **Stage changes:**
+
    ```bash
    git add .
    ```
 
 2. **Commit changes:**
+
    ```bash
    git commit -m "Add server endpoint and HTML client"
    ```
@@ -285,6 +325,7 @@ git --version
 ### Submitting Assignment
 
 1. **Push final changes:**
+
    ```bash
    git add .
    git commit -m "Final submission"
@@ -292,6 +333,7 @@ git --version
    ```
 
 2. **Verify on GitHub:**
+
    - Go to your repository on GitHub
    - Verify all files are there
    - Check README.md is updated
@@ -314,11 +356,13 @@ git --version
 ### Help Channel
 
 **Where to ask questions:**
+
 - Discord/Slack/Teams channel (provided by teacher)
 - GitHub Classroom discussions
 - Office hours (if available)
 
 **What to include:**
+
 - Clear description of the problem
 - What you've tried
 - Error messages (if any)
@@ -327,13 +371,15 @@ git --version
 ### Resources
 
 **Course Materials:**
+
 - [Building with Cursor (public)](https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d)
 - [FAQ](./vibe-coding-faq.md)
 - [Grading Rubrics](./vibe-coding-grading-rubrics.md)
 
 **External Resources:**
+
 - [Express.js Documentation](https://expressjs.com)
-- [Flask Documentation](https://flask.palletsprojects.com)
+- [Node.js Documentation](https://nodejs.org/docs)
 - [MDN Web Docs](https://developer.mozilla.org)
 - [Git Documentation](https://git-scm.com/doc)
 
@@ -351,6 +397,7 @@ git --version
 ### Issue: Can't clone repository
 
 **Solution:**
+
 - Verify you accepted the assignment
 - Check repository URL is correct
 - Make sure Git is installed
@@ -359,6 +406,7 @@ git --version
 ### Issue: Server won't start
 
 **Node.js:**
+
 ```bash
 # Check Node.js is installed
 node --version
@@ -370,35 +418,40 @@ npm install
 npm start
 ```
 
-**Python:**
+**Troubleshooting:**
+
 ```bash
-# Check Python is installed
-python --version
+# If npm start fails, try:
+node server/index.js
 
-# Install dependencies
-pip install -r requirements.txt
+# If port is in use:
+# Kill process on port 3000 (Windows)
+netstat -ano | findstr :3000
+taskkill /PID <PID> /F
 
-# Start server
-python server/app.py
+# Kill process on port 3000 (Mac/Linux)
+lsof -ti:3000 | xargs kill
 ```
 
 ### Issue: CORS error in browser
 
 **Solution:**
+
 - Server needs CORS headers
 - Add CORS middleware to server
 - Example (Node.js/Express):
   ```javascript
   app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
-    next();
-  });
+    res.header('Access-Control-Allow-Origin', '*')
+    res.header('Access-Control-Allow-Headers', 'Content-Type')
+    next()
+  })
   ```
 
 ### Issue: Fetch API not working
 
 **Solution:**
+
 - Check server is running
 - Verify endpoint URL is correct
 - Check browser console for errors
@@ -407,6 +460,7 @@ python server/app.py
 ### Issue: Can't push to GitHub
 
 **Solution:**
+
 - Verify you're authenticated: `git config --global user.name` and `git config --global user.email`
 - Check repository URL: `git remote -v`
 - Try: `git push origin main` (or `master`)
@@ -414,6 +468,7 @@ python server/app.py
 ### Issue: Cursor AI not working
 
 **Solution:**
+
 - Verify Cursor is installed and running
 - Check you're signed in
 - Try restarting Cursor
@@ -423,25 +478,11 @@ python server/app.py
 
 ## Document History
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| Version | Date       | Author                 | Changes         |
+| ------- | ---------- | ---------------------- | --------------- |
+| 1.0     | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1     | 2026-01-07 | RepodIn Education Team | Added explicit Cursor installation and interface sections |
 
 ---
 
 **Next Review Date:** 2026-03-20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
