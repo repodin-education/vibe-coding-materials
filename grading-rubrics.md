@@ -92,24 +92,27 @@ This course emphasizes:
 
 | Criteria | Excellent (45-50) | Good (35-44) | Satisfactory (25-34) | Needs Improvement (0-24) |
 |----------|-------------------|--------------|----------------------|---------------------------|
-| **Question 1: Multi-file Reasoning** (12.5 pts) | Clear, detailed explanation with examples | Good explanation, some examples | Basic understanding shown | Vague or incorrect |
-| **Question 2: Good Prompts** (12.5 pts) | Excellent examples, well-explained | Good examples provided | Basic examples | Weak or missing examples |
-| **Question 3: Debugging Workflow** (12.5 pts) | Clear workflow, shows understanding | Good workflow described | Basic workflow | Unclear or missing |
-| **Question 4: Personal Benefits** (12.5 pts) | Thoughtful, specific reflection | Good reflection | Basic reflection | Superficial or missing |
+| **Question 1: Multi-file Reasoning** (10 pts) | Clear, detailed explanation with examples | Good explanation, some examples | Basic understanding shown | Vague or incorrect |
+| **Question 2: Good Prompts** (10 pts) | Excellent examples, well-explained | Good examples provided | Basic examples | Weak or missing examples |
+| **Question 3: Debugging Workflow** (10 pts) | Clear workflow, shows understanding | Good workflow described | Basic workflow | Unclear or missing |
+| **Question 4: Iteration and Improvement** (10 pts) | Excellent iteration example, well-explained | Good iteration example | Basic understanding | Unclear or missing |
+| **Question 5: Personal Benefits** (10 pts) | Thoughtful, specific reflection | Good reflection | Basic reflection | Superficial or missing |
 
 ### Quality Indicators
 
 **Excellent (45-50 points):**
-- All questions answered thoroughly
+- All 5 questions answered thoroughly
 - Examples are specific and relevant
 - Shows deep understanding of concepts
+- Iteration example is clear and practical
 - Personal reflection is thoughtful
 - Writing is clear and well-organized
 
 **Good (35-44 points):**
-- All questions answered
+- All 5 questions answered
 - Examples provided
 - Shows good understanding
+- Iteration example provided
 - Some depth in reflection
 - Writing is clear
 
@@ -117,6 +120,7 @@ This course emphasizes:
 - Most questions answered
 - Basic examples
 - Shows basic understanding
+- Basic iteration understanding
 - Minimal reflection
 - Writing needs improvement
 
@@ -124,6 +128,7 @@ This course emphasizes:
 - Missing answers
 - No examples
 - Shows misunderstanding
+- No iteration understanding
 - No reflection
 - Poor writing quality
 
@@ -132,7 +137,8 @@ This course emphasizes:
 - **Vague answers:** "It's useful" without explanation
 - **Missing examples:** Concepts explained but no concrete examples
 - **Copy-paste:** Answers copied from documentation without understanding
-- **Incomplete:** Not all questions answered
+- **Incomplete:** Not all 5 questions answered
+- **No iteration example:** Question 4 answered without concrete scenario
 
 ---
 
@@ -427,11 +433,11 @@ This course emphasizes:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1 | 2026-01-07 | RepodIn Education Team | Updated Assignment 1 rubric for 5 questions (added iteration) |
 
 ---
 
 **Next Review Date:** 2026-03-20
-
 
 
 
