@@ -186,7 +186,7 @@ This course teaches students to use AI tools effectively. Assessment focuses on:
 
 **Autograding:**
 - Optional autograding available for Assignment 2
-- See [Autograding Guide](./vibe-coding-autograding.md)
+- See [Autograding Guide](./autograding.md)
 
 ### Plagiarism Detection
 
@@ -244,7 +244,7 @@ This course teaches students to use AI tools effectively. Assessment focuses on:
 1. **Cursor AI**
    - Download from [cursor.sh](https://cursor.sh)
    - Free tier sufficient
-   - Installation guide in [Student Guide](./vibe-coding-student-guide.md)
+   - Installation guide in [Student Guide](./student-guide.md)
 
 2. **Node.js**
    - Download from [nodejs.org](https://nodejs.org)
@@ -272,7 +272,7 @@ This course teaches students to use AI tools effectively. Assessment focuses on:
 - Starter repositories prepared
 - Student roster ready
 
-See [GitHub Classroom Setup Guide](./github-classroom-vibe-coding-setup.md) for details.
+See [GitHub Classroom Setup Guide](../setup/github-classroom-setup.md) for details.
 
 ---
 
@@ -304,9 +304,9 @@ See [GitHub Classroom Setup Guide](./github-classroom-vibe-coding-setup.md) for 
 
 **Course Materials:**
 - [Building with Cursor (public)](https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d)
-- [Student Quick Start Guide](./vibe-coding-student-guide.md)
-- [FAQ](./vibe-coding-faq.md)
-- [Grading Rubrics](./vibe-coding-grading-rubrics.md)
+- [Student Quick Start Guide](./student-guide.md)
+- [FAQ](./faq.md)
+- [Grading Rubrics](./grading-rubrics.md)
 
 **External Resources:**
 - [Express.js Documentation](https://expressjs.com)
@@ -340,17 +340,3 @@ See [GitHub Classroom Setup Guide](./github-classroom-vibe-coding-setup.md) for 
 ---
 
 **Next Review Date:** 2026-03-20
-
-
-
-
-
-
-
-
-
-
-
-
-
-
