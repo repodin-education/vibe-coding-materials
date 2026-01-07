@@ -24,7 +24,7 @@
 |--------|----------|-------|
 | Module 1 – Intro | 1h | Reading only, no submission |
 | Module 2 – Fundamentals | 2–3h | Reflection assignment |
-| Module 3 – E2E App | 2–4h | Main practical task |
+| Module 3 – E2E App | 2–4h | Main practical task (Node.js) |
 | Module 4 – Mini Feature | 1–2h | Creative extension |
 
 ### Suggested Schedules
@@ -76,9 +76,9 @@
   - JavaScript basics (variables, functions, DOM manipulation)
   - HTTP requests (fetch API)
 
-- **Either Node.js or Python:**
-  - Node.js: Understanding of npm, package.json, basic Express
-  - Python: Understanding of pip, requirements.txt, basic Flask
+- **Node.js:**
+  - Understanding of npm, package.json, basic Express
+  - Willingness to learn with AI assistance
 
 ### Recommended Experience
 
@@ -92,37 +92,22 @@
 
 ## Technology Stack
 
-### Student Choice: Node.js or Python
+### Node.js + Express
 
-Students can choose their preferred stack:
+The course uses Node.js and Express for all assignments:
 
-**Option 1: Node.js + Express**
 - Runtime: Node.js (v18+)
 - Framework: Express.js
 - Package manager: npm
 - File structure: `server/`, `client/`
 
-**Option 2: Python + Flask**
-- Runtime: Python (v3.11+)
-- Framework: Flask
-- Package manager: pip
-- File structure: `server/`, `client/`
-
-### Required Tools
-
-**All Students:**
+**Required Tools:**
 - Cursor AI (free tier sufficient)
 - Git (latest version)
 - GitHub account
 - Code editor (VS Code recommended)
-
-**Node.js Students:**
 - Node.js v18 or higher
 - npm (comes with Node.js)
-
-**Python Students:**
-- Python 3.11 or higher
-- pip (comes with Python)
 
 ### Browser Requirements
 
@@ -146,6 +131,21 @@ Students can choose their preferred stack:
 - AI-generated code is expected and encouraged
 - Assessment focuses on understanding and modification
 - Students must document their prompts and workflow
+
+**Key Cursor AI Concepts:**
+Students should understand and apply these core concepts:
+- **Multi-file reasoning:** Cursor can understand context across multiple files
+- **Iterative prompting:** Refining prompts to improve code quality
+- **Debugging workflow:** Using Cursor to identify and fix errors
+- **Safe refactors:** Making code changes with AI assistance while maintaining functionality
+
+**Safe Refactoring with Cursor:**
+Safe refactoring means improving code structure without breaking functionality:
+- Use Cursor to suggest improvements to existing code
+- Test after each refactor to ensure functionality is preserved
+- Ask Cursor to explain the changes before applying them
+- Document refactoring decisions in code comments
+- Example: "Refactor this function to be more readable without changing behavior"
 
 ### Code Review vs. AI-Generated Code
 
@@ -246,17 +246,12 @@ This course teaches students to use AI tools effectively. Assessment focuses on:
    - Free tier sufficient
    - Installation guide in [Student Guide](./vibe-coding-student-guide.md)
 
-2. **Node.js (for Node.js students)**
+2. **Node.js**
    - Download from [nodejs.org](https://nodejs.org)
    - Version 18 or higher
    - Verify: `node --version`
 
-3. **Python (for Python students)**
-   - Download from [python.org](https://python.org)
-   - Version 3.11 or higher
-   - Verify: `python --version`
-
-4. **Git**
+3. **Git**
    - Download from [git-scm.com](https://git-scm.com)
    - Verify: `git --version`
 
@@ -315,7 +310,7 @@ See [GitHub Classroom Setup Guide](./github-classroom-vibe-coding-setup.md) for 
 
 **External Resources:**
 - [Express.js Documentation](https://expressjs.com)
-- [Flask Documentation](https://flask.palletsprojects.com)
+- [Node.js Documentation](https://nodejs.org/docs)
 - [MDN Web Docs](https://developer.mozilla.org)
 - [Git Documentation](https://git-scm.com/doc)
 
@@ -339,11 +334,12 @@ See [GitHub Classroom Setup Guide](./github-classroom-vibe-coding-setup.md) for 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1 | 2025-12-28 | RepodIn Education Team | Updated for Node.js only |
+| 1.2 | 2026-01-07 | RepodIn Education Team | Added key Cursor AI concepts and safe refactoring section |
 
 ---
 
 **Next Review Date:** 2026-03-20
-
 
 
 
