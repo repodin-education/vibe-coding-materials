@@ -1,5 +1,13 @@
 # Vibe Coding – Building with Cursor: Complete Course Package
 
+> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
+
+**Document Version:** 1.0
+**Last Updated:** 2025-12-20
+**Status:** Production
+**Maintainer:** RepodIn Education Team
+---
+
 ## Table of Contents
 
 - [Course Overview](#course-overview)
@@ -75,13 +83,14 @@ Based on Cursor's "Building with Cursor" guide. Students learn:
 
 **Assignment 1:** *Cursor Fundamentals Reflection*
 
-Students answer 4 concept questions in `answers.md`:
+Students answer 5 concept questions in a reflection file (e.g. `REFLECTION.md` or a section in `README.md`):
 1. What is Cursor's multi-file reasoning and why is it useful?
 2. How would you phrase a "good task prompt" in Cursor? Give 1–2 examples.
 3. What is your workflow when debugging an error with Cursor?
-4. What is the biggest benefit of AI-assisted coding for you personally?
+4. How do you use iteration in Cursor to improve your code? Provide an example.
+5. What is the biggest benefit of AI-assisted coding for you personally?
 
-**Submission:** Push to GitHub repo.
+**Submission:** In GitHub Classroom, submission = push to the assignment repo before the deadline (no separate submit button).
 
 ---
 
@@ -90,7 +99,7 @@ Students answer 4 concept questions in `answers.md`:
 **Duration:** 2–4 hours
 
 **Goal:** Build a full minimal app pipeline:
-- A Node.js or Python server (student chooses)
+- A Node.js server with Express
 - Returns "Hello Vibe!" from an API endpoint
 - Simple static HTML page fetches the message and displays it in the browser
 - All generated using Cursor
@@ -98,10 +107,9 @@ Students answer 4 concept questions in `answers.md`:
 **Assignment 2:** *E2E Hello World Build*
 
 **Requirements:**
-1. **Server** (choose one):
-   - Node.js + Express **or**
-   - Python + Flask
-   
+1. **Server:**
+   - Node.js + Express
+
    Endpoint: `GET /api/hello` → returns: `{ message: "Hello Vibe!" }`
 
 2. **Browser:**
@@ -115,8 +123,8 @@ Students answer 4 concept questions in `answers.md`:
    - Run locally
    - Commit → push
    - Add a short explanation in `README.md`:
-     - Which language they chose
      - What prompts they used
+     - How to run the project
      - Screenshot of browser output
 
 **Submission:** The working app in GitHub repo.
@@ -152,16 +160,17 @@ Students extend the basic app by adding one small "vibe feature", for example:
 **Goal:** Ensure students understand the principles of building with Cursor.
 
 **Instructions:**
-Read the Cursor guide: *Building with Cursor (public)*. Then answer the following in `answers.md`:
+Read the Cursor guide: *Building with Cursor (public)*. Then add your answers in the assignment repository (e.g. in `REFLECTION.md` or a section in `README.md`), with clear headings:
 
 1. What is Cursor's multi-file reasoning and why is it useful?
 2. How would you phrase a "good task prompt" in Cursor? Give 1–2 examples.
 3. What is your workflow when debugging an error with Cursor?
-4. What is the biggest benefit of AI-assisted coding for you personally?
+4. How do you use iteration in Cursor to improve your code? Provide an example.
+5. What is the biggest benefit of AI-assisted coding for you personally?
 
-**Submission:** Push to GitHub repo.
+**Submission:** In GitHub Classroom, you submit by **pushing** to your assignment repository before the deadline. There is no separate submit button—push is submit.
 
-**Grading:** See [Grading Rubrics](../education/vibe-coding-grading-rubrics.md)
+**Grading:** See [Grading Rubrics](./grading-rubrics.md)
 
 ---
 
@@ -172,9 +181,8 @@ Read the Cursor guide: *Building with Cursor (public)*. Then answer the followin
 **Requirements:**
 
 #### 1. Server
-Create server in either:
-- Node + Express **or**
-- Python + Flask
+Create server with:
+- Node.js + Express
 
 Endpoint: `GET /api/hello` → returns: `{ message: "Hello Vibe!" }`
 
@@ -187,16 +195,16 @@ Endpoint: `GET /api/hello` → returns: `{ message: "Hello Vibe!" }`
 #### 3. Workflow
 Student must:
 - Use Cursor to generate files
-- Run locally
+- Run locally with Node.js
 - Commit → push
 - Add a short explanation in `README.md`:
-  - Which language they chose
   - What prompts they used
+  - How to run the project
   - Screenshot of browser output
 
 **Submission:** The working app in GitHub repo.
 
-**Grading:** See [Grading Rubrics](../education/vibe-coding-grading-rubrics.md)
+**Grading:** See [Grading Rubrics](./grading-rubrics.md)
 
 ---
 
@@ -220,7 +228,7 @@ Student extends their Hello World app with **one new feature**. Examples (they c
 
 **Submission:** Update the repo + describe the feature in `README.md`.
 
-**Grading:** See [Grading Rubrics](../education/vibe-coding-grading-rubrics.md)
+**Grading:** See [Grading Rubrics](./grading-rubrics.md)
 
 ---
 
@@ -231,20 +239,19 @@ Student extends their Hello World app with **one new feature**. Examples (they c
 1. **All code must be in GitHub Classroom repository**
 2. **All submissions must be pushed before deadline**
 3. **README.md must include:**
-   - Which language/stack was chosen
    - What prompts were used (for Cursor AI)
-   - How to run the project
+   - How to run the project (Node.js setup and start commands)
    - Screenshots of working application
 
 ### Assignment-Specific Requirements
 
 **Assignment 1:**
-- Create `answers.md` file
+- Add reflection in repo (e.g. REFLECTION.md or README section)
 - Answer all 4 questions
 - Push to repository
 
 **Assignment 2:**
-- Working server (Node.js or Python)
+- Working Node.js + Express server
 - Working HTML client
 - Server must run on localhost
 - Client must successfully fetch and display message
@@ -319,8 +326,8 @@ This fits well for a **one-week sprint** or **two weeks part-time**.
 - [ ] Update course materials based on feedback
 
 For detailed checklists, see:
-- [Teacher Checklist](./vibe-coding-teacher-checklist.md)
-- [Student Checklist](./vibe-coding-student-checklist.md)
+- [Teacher Checklist](../setup/teacher-checklist.md)
+- [Student Checklist](./student-checklist.md)
 
 ---
 
@@ -333,13 +340,13 @@ For detailed checklists, see:
   - Git and GitHub
   - Command line
   - Web development basics (HTML, JavaScript)
-  - Either Node.js or Python
+  - Node.js basics (or willingness to learn with AI assistance)
 
 ### Technology Requirements
 
 **Students must install:**
 - Cursor AI (free tier available)
-- Node.js (v18+) **or** Python (v3.11+)
+- Node.js (v18+)
 - Git
 - GitHub account
 
@@ -391,8 +398,8 @@ Students should demonstrate:
 
 **Resources:**
 - [Building with Cursor (public)](https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d)
-- [Student Quick Start Guide](./vibe-coding-student-guide.md)
-- [FAQ](./vibe-coding-faq.md)
+- [Student Quick Start Guide](./student-guide.md)
+- [FAQ](./faq.md)
 
 ---
 
@@ -437,7 +444,7 @@ This "Vibe Coding" course is designed to work seamlessly with RepodIn's Teacher 
 ### Setup Steps
 
 1. **Create Course in GitHub Classroom**
-   - Follow [GitHub Classroom Setup Guide](./github-classroom-vibe-coding-setup.md)
+   - Follow [GitHub Classroom Setup Guide](../setup/github-classroom-setup.md)
 
 2. **Sync to RepodIn**
    - Connect GitHub account in RepodIn Teacher Dashboard
@@ -456,8 +463,8 @@ This "Vibe Coding" course is designed to work seamlessly with RepodIn's Teacher 
    - Export grades to GitHub Classroom
 
 For detailed integration instructions, see:
-- [RepodIn Integration Guide](./vibe-coding-repodin-integration.md)
-- [Student RepodIn Guide](./vibe-coding-student-repodin-guide.md)
+- [RepodIn Integration Guide](../setup/repodin-integration.md)
+- [Student RepodIn Guide](./student-repodin-guide.md)
 
 ---
 
@@ -466,11 +473,11 @@ For detailed integration instructions, see:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1 | 2025-12-28 | RepodIn Education Team | Simplified to Node.js only, removed Python option |
 
 ---
 
 **Next Review Date:** 2026-03-20
-
 
 
 

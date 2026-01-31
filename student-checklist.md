@@ -1,5 +1,13 @@
 # Vibe Coding Course: Student Progress Checklist
 
+> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
+
+**Document Version:** 1.0
+**Last Updated:** 2025-12-20
+**Status:** Production
+**Maintainer:** RepodIn Education Team
+---
+
 ## Table of Contents
 
 - [Before Starting](#before-starting)
@@ -17,24 +25,28 @@
 ### Installation
 
 - [ ] Cursor AI installed and configured
-- [ ] Node.js (v18+) **OR** Python (v3.11+) installed
+- [ ] Node.js (v18+) installed
 - [ ] Git installed and configured
 - [ ] VS Code (or other editor) installed
 - [ ] GitHub account created and verified
 
 ### Verification
 
-- [ ] Node.js: `node --version` shows v18+ **OR** Python: `python --version` shows v3.11+
+- [ ] Node.js: `node --version` shows v18+
+- [ ] npm: `npm --version` shows version number
 - [ ] Git: `git --version` shows version number
 - [ ] Cursor AI opens and works
 - [ ] GitHub account accessible
 
 ### GitHub Classroom
 
-- [ ] Classroom invitation accepted
+- [ ] Clicked invitation link: [https://classroom.github.com/a/zHOCUqGM](https://classroom.github.com/a/zHOCUqGM)
+- [ ] Signed in to GitHub account
+- [ ] If saw name list: Clicked "Skip to the next step" (no need to select name)
+- [ ] Accepted assignment: "Vibe Coding 2026"
 - [ ] Joined classroom successfully
+- [ ] Can see assignments in **Assignments** tab
 - [ ] GitHub username verified in classroom
-- [ ] Can see assignments
 
 ---
 
@@ -63,20 +75,21 @@
 
 ### Assignment 1: Cursor Fundamentals Reflection
 
-- [ ] Assignment accepted in GitHub Classroom
+- [ ] Assignment accepted in GitHub Classroom (you have your own repo)
 - [ ] Repository cloned locally
-- [ ] `answers.md` file created
+- [ ] Reflection added in repo (e.g. REFLECTION.md or README section) with clear headings
 - [ ] Question 1 answered: Multi-file reasoning
 - [ ] Question 2 answered: Good prompts (with examples)
 - [ ] Question 3 answered: Debugging workflow
-- [ ] Question 4 answered: Personal benefits
+- [ ] Question 4 answered: Iteration and improvement (with example)
+- [ ] Question 5 answered: Personal benefits
 - [ ] Answers reviewed and polished
-- [ ] Changes committed: `git add .` and `git commit -m "Assignment 1 answers"`
-- [ ] Changes pushed: `git push`
-- [ ] Submission verified on GitHub
+- [ ] Changes committed: `git add .` and `git commit -m "Assignment 1 reflection"`
+- [ ] **Changes pushed before deadline** (in GitHub Classroom, push = submit; there is no separate submit button)
+- [ ] Submission verified on GitHub (repo content at deadline = your submission)
 
 **Time:** 2-3 hours
-**Deliverable:** `answers.md` with 4 questions answered
+**Deliverable:** Reflection in repo (e.g. REFLECTION.md) with all 5 questions answered; submit by pushing before deadline
 
 ---
 
@@ -86,12 +99,12 @@
 
 - [ ] Assignment 2 accepted in GitHub Classroom
 - [ ] Repository cloned locally
-- [ ] Chosen stack: Node.js **OR** Python
+- [ ] Node.js starter template ready
 - [ ] Development environment ready
 
 ### Development
 
-- [ ] Server created (Node.js/Express **OR** Python/Flask)
+- [ ] Server created with Node.js + Express
 - [ ] Endpoint `/api/hello` created
 - [ ] Endpoint returns: `{ message: "Hello Vibe!" }`
 - [ ] Server runs without errors
@@ -189,7 +202,6 @@
 ---
 
 **Next Review Date:** 2026-03-20
-
 
 
 

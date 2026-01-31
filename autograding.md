@@ -1,5 +1,13 @@
 # Vibe Coding Course: Autograding Configuration Guide
 
+> **"RepodIn Education is a teacher-first management and analytics layer on top of GitHub Classroom."**
+
+**Document Version:** 1.0
+**Last Updated:** 2025-12-20
+**Status:** Production
+**Maintainer:** RepodIn Education Team
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -101,23 +109,6 @@ See [Node.js Starter Repository](../setup/starter-repos/nodejs-starter/.github/w
   run: |
     response=$(curl -s http://localhost:3000/api/hello)
     echo "$response" | jq -e '.message' || exit 1
-```
-
-### Python Autograding Workflow
-
-See [Python Starter Repository](../setup/starter-repos/python-starter/.github/workflows/autograding.yml) for complete example.
-
-**Key Tests:**
-```yaml
-- name: Test endpoint exists
-  run: |
-    response=$(curl -s http://localhost:3000/api/hello)
-    echo "$response" | grep -q "Hello Vibe!" || exit 1
-
-- name: Test JSON format
-  run: |
-    response=$(curl -s http://localhost:3000/api/hello)
-    echo "$response" | python -m json.tool || exit 1
 ```
 
 ### Setup in GitHub Classroom
@@ -231,62 +222,6 @@ jobs:
           grep -q "fetch" client/index.html || exit 1
 ```
 
-### Python Complete Workflow
-
-```yaml
-name: Autograding - Assignment 2
-
-on:
-  push:
-    branches: [main, master]
-  pull_request:
-    branches: [main, master]
-
-jobs:
-  autograde:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Start server
-        run: python server/app.py &
-        env:
-          PORT: 3000
-
-      - name: Wait for server
-        run: |
-          timeout 30 bash -c 'until curl -f http://localhost:3000/api/hello; do sleep 1; done'
-
-      - name: Test endpoint exists
-        run: |
-          response=$(curl -s http://localhost:3000/api/hello)
-          echo "$response" | grep -q "Hello Vibe!" || exit 1
-
-      - name: Test JSON format
-        run: |
-          response=$(curl -s http://localhost:3000/api/hello)
-          echo "$response" | python -m json.tool || exit 1
-
-      - name: Test HTML file exists
-        run: |
-          test -f client/index.html || exit 1
-
-      - name: Test HTML has fetch
-        run: |
-          grep -q "fetch" client/index.html || exit 1
-```
-
 ---
 
 ## Troubleshooting
@@ -304,7 +239,7 @@ jobs:
 **Issue: Server won't start in workflow**
 
 **Solutions:**
-- Check package.json/requirements.txt
+- Check package.json
 - Verify start command is correct
 - Check for missing dependencies
 - Review error logs
@@ -339,6 +274,7 @@ jobs:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1 | 2025-12-28 | RepodIn Education Team | Simplified to Node.js only, removed Python workflows |
 
 ---
 

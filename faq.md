@@ -1,5 +1,13 @@
 # Vibe Coding Course: Frequently Asked Questions
 
+> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
+
+**Document Version:** 1.0
+**Last Updated:** 2025-12-20
+**Status:** Production
+**Maintainer:** RepodIn Education Team
+---
+
 ## Table of Contents
 
 - [Setup Questions](#setup-questions)
@@ -23,9 +31,9 @@
 
 **A:** While Cursor is recommended, you can use other AI coding assistants. However, the course materials are specifically designed for Cursor, so you may need to adapt instructions.
 
-### Q: Do I need both Node.js and Python?
+### Q: What if I only know Python, not Node.js?
 
-**A:** No, you only need one. Choose either Node.js or Python based on your preference. Both work equally well for this course.
+**A:** No problem! This course uses Node.js, but Cursor AI will help you learn Node.js basics as you go. The focus is on learning AI-assisted coding workflow, not the specific language. Node.js and JavaScript are easy to learn, especially with AI assistance. Think of it as learning two things at once: AI tools AND Node.js basics.
 
 ### Q: What if I don't have a GitHub account?
 
@@ -70,8 +78,8 @@
 ### Q: My server won't start. What should I do?
 
 **A:**
-1. Check Node.js/Python is installed: `node --version` or `python --version`
-2. Install dependencies: `npm install` or `pip install -r requirements.txt`
+1. Check Node.js is installed: `node --version`
+2. Install dependencies: `npm install`
 3. Check for error messages in terminal
 4. Verify port is not already in use
 5. Ask for help with specific error message
@@ -99,7 +107,7 @@ app.use((req, res, next) => {
 ### Q: How do I test my server locally?
 
 **A:**
-1. Start server: `npm start` or `python server/app.py`
+1. Start server: `npm start` or `node server/index.js`
 2. Open browser to `http://localhost:3000/api/hello`
 3. You should see JSON response
 4. Open HTML file in browser (or serve via server)
@@ -243,6 +251,7 @@ app.use((req, res, next) => {
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1 | 2025-12-28 | RepodIn Education Team | Updated for Node.js only, added Python learner guidance |
 
 ---
 

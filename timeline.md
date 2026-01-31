@@ -1,5 +1,13 @@
 # Vibe Coding Course: Visual Timeline
 
+> **"RepodIn Education turns GitHub Classroom courses into a scalable, measurable, and quality-controlled learning environment."**
+
+**Document Version:** 1.0
+**Last Updated:** 2025-12-20
+**Status:** Production
+**Maintainer:** RepodIn Education Team
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -173,7 +181,7 @@ Total: 6-10 hours + optional extensions
 - Understand iteration loops
 - Complete reflection assignment
 
-**Deliverable:** Assignment 1 (answers.md)
+**Deliverable:** Assignment 1 (reflection in repo, e.g. REFLECTION.md or README; submit by pushing before deadline)
 
 **Timeline:**
 ```
@@ -182,7 +190,8 @@ Total: 6-10 hours + optional extensions
 ├─────────────────────────────────────┤
 │ Study: 1-2h                        │
 │ Assignment 1: 1h                   │
-│ Deliverable: answers.md            │
+│ Deliverable: reflection in repo;   │
+│ submit = push before deadline      │
 └─────────────────────────────────────┘
 ```
 
@@ -192,7 +201,7 @@ Total: 6-10 hours + optional extensions
 
 **Activities:**
 - Set up development environment
-- Create server (Node.js or Python)
+- Create server (Node.js + Express)
 - Create HTML client
 - Test end-to-end
 - Document process
@@ -317,11 +326,11 @@ Pro Extensions: ████████████ (17% - 50 bonus points)
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-12-20 | RepodIn Education Team | Initial version |
+| 1.1 | 2025-12-28 | RepodIn Education Team | Updated for Node.js only |
 
 ---
 
 **Next Review Date:** 2026-03-20
-
 
 
 

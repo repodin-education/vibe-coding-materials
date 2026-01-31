@@ -35,7 +35,7 @@
 
 1. **Intro to Cursor + GitHub** (1h) – Ymmärrys AI-työkalujen käytöstä
 2. **Vibe Coding Fundamentals** (2–3h) – Hyvien promptien kirjoittaminen, iteratiivinen kehitys
-3. **E2E Hello World** (2–4h) – Toimiva web-sovellus (Node.js/Python)
+3. **E2E Hello World** (2–4h) – Toimiva web-sovellus (Node.js)
 4. **Mini Feature** (1–2h) – Olemassa olevan sovelluksen laajentaminen
 
 **Yhteensä:** 6–10 tuntia työtä, 3 tehtävää + pro-level -laajennukset
@@ -47,7 +47,7 @@
 **✅ Sopii Sinulle Jos:**
 
 - Olet ohjelmoinnin perusteet hallussa (muuttujat, funktiot, kontrollirakenteet)
-- Tunnet jonkin ohjelmointikielen (JavaScript tai Python)
+- Tunnet jonkin ohjelmointikielen perusteet (JavaScript suositeltu)
 - Haluat oppia käyttämään AI-työkaluja koodaamiseen
 - Olet valmis rakentamaan oikean projektin kurssin aikana
 
@@ -55,7 +55,7 @@
 
 - GitHub-tunnus (ilmainen: [github.com](https://github.com))
 - Cursor AI (ilmainen versio riittää: [cursor.sh](https://cursor.sh))
-- Node.js TAI Python (valitse toinen)
+- Node.js (v18+)
 
 ---
 

@@ -322,9 +322,11 @@ git --version
   - Prompts you used (if applicable)
 - [ ] All changes committed and pushed
 
-### Submitting Assignment
+### Submitting Assignment (GitHub Classroom)
 
-1. **Push final changes:**
+In GitHub Classroom **there is no separate "Submit" button**. You submit by **pushing** your work to your assignment repository before the deadline.
+
+1. **Push your work (that is your submission):**
 
    ```bash
    git add .
@@ -334,13 +336,11 @@ git --version
 
 2. **Verify on GitHub:**
 
-   - Go to your repository on GitHub
+   - Go to your assignment repository on GitHub
    - Verify all files are there
-   - Check README.md is updated
+   - Whatever is in the repo at the deadline is what will be graded
 
-3. **Mark as complete (if required):**
-   - Some assignments may have a "Mark as complete" button
-   - Click it if available
+3. **Push before the deadline.** If your teacher set a hard cutoff, you will lose write access after the deadline—so push in time.
 
 ### After Submission
 
@@ -373,8 +373,8 @@ git --version
 **Course Materials:**
 
 - [Building with Cursor (public)](https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d)
-- [FAQ](./vibe-coding-faq.md)
-- [Grading Rubrics](./vibe-coding-grading-rubrics.md)
+- [FAQ](./faq.md)
+- [Grading Rubrics](./grading-rubrics.md)
 
 **External Resources:**
 

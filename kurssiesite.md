@@ -2,14 +2,14 @@
 
 > **"Opi käyttämään AI-työkaluja tehokkaasti koodaamiseen – rakentamalla oikeita projekteja"**
 
-**Kurssin kesto:** 6–10 tuntia
+**Kurssin kesto:** Yksi viikko osa-aikaisesti (6–10 tuntia)
 **Taso:** Aloittelija → Pro-foundations
 **Alusta:** GitHub Classroom
 **Hinta:** Ilmainen (GitHub Classroom + Cursor AI free tier)
 
 ---
 
-## 🎯 Mikä on Vibe Coding?
+## 🎯 Mikä on Vibe Coding kurssi?
 
 **Vibe Coding** on moderni koodauskurssi, joka opettaa käyttämään AI-työkaluja (Cursor) tehokkaasti oikeiden projektien rakentamiseen. Opit:
 
@@ -18,7 +18,7 @@
 - ✅ **Modernit työkalut** – Git, GitHub, GitHub Classroom
 - ✅ **Oppimistavoite** – rakennat oikean sovelluksen kurssin aikana
 
-**Ei perinteistä koodausta:** Tämä kurssi ei opeta kirjoittamaan koodia käsin. Sen sijaan opit käyttämään AI-työkaluja niin, että saat aikaan laadukasta, toimivaa koodia nopeasti.
+**Ei perinteistä koodausta:** Tämä kurssi ei opeta kirjoittamaan koodia käsin. Sen sijaan opit käyttämään AI-työkaluja niin, että saat aikaan hyvää, toimivaa koodia nopeasti.
 
 ---
 
@@ -61,7 +61,7 @@
 
 ### Moduuli 3: E2E Hello World (2–4h)
 
-- Node.js tai Python -serverin rakentaminen. Suositus Node.js
+- Node.js + Express -serverin rakentaminen
 - API-endpointin luominen
 - HTML-clientin rakentaminen
 - Server → Browser -sovelluksen toiminnallisuus
@@ -85,7 +85,7 @@
 ### ✅ Sopii Sinulle Jos:
 
 - Olet ohjelmoinnin perusteet hallussa (muuttujat, funktiot, kontrollirakenteet)
-- Tunnet jonkin ohjelmointikielen (JavaScript tai Python)
+- Tunnet jonkin ohjelmointikielen perusteet (JavaScript suositeltu)
 - Haluat oppia käyttämään AI-työkaluja koodaamiseen
 - Olet valmis rakentamaan oikean projektin kurssin aikana
 - Sinulla on GitHub-tunnus (tai olet valmis luomaan sellaisen)
@@ -106,7 +106,7 @@
 ### Pakolliset Työkalut:
 
 - ✅ **Cursor AI** – Ilmainen versio riittää ([cursor.sh](https://cursor.sh))
-- ✅ **Node.js (v18+)** TAI **Python (v3.11+)** – Valitse toinen (suositus Node.js)
+- ✅ **Node.js (v18+)** – JavaScript runtime
 - ✅ **Git** – Versiohallinta
 - ✅ **GitHub-tunnus** – Ilmainen ([github.com](https://github.com))
 - ✅ **Koodieditori** – VS Code suositeltu
@@ -117,6 +117,7 @@
 - ✅ HTML- ja JavaScript-perusteet
 - ✅ Komentorivin peruskäyttö
 - ✅ Git-perusteet (clone, commit, push)
+- ✅ Node.js perusteet (tai halu oppia AI:n avulla)
 - Ennen kaikkea: asenne, can do!
 
 **Asennus:** Kaikki työkalut ovat ilmaisia ja asennusohjeet löytyvät kurssimateriaalista.
@@ -167,9 +168,9 @@
 
 ## 🚀 Miten Kurssi Toimii?
 
-### 1. Ilmoittaudu GitHub Classroomiin
+### 1. Pyydä linkki
 
-Opettaja lähettää sinulle linkin GitHub Classroom -kurssiin. Hyväksyt tehtävän ja saat oman repositoryn.
+Lhetän sinulle linkin GitHub Classroom -kurssiin. Hyväksyt tehtävän ja saat oman repositoryn.
 
 ### 2. Tee Tehtävät Cursor AI:n Avulla
 
@@ -181,10 +182,10 @@ Opettaja lähettää sinulle linkin GitHub Classroom -kurssiin. Hyväksyt tehtä
 ### 3. Palauta GitHub Classroomiin
 
 - Commit → push → done!
-- Saat AI-palautteen muutamassa minuutissa (coming soon)
-- Opettaja arvioi ja antaa lopullisen arvosanan (coming soon)
+- Saat AI-palautteen muutamassa minuutissa (coming soon Feb-2026)
+- AI arvioi (coming soon Feb-2026)
 
-### 4. Opiskele ja Paranna
+### 4. Opiskele ja Paranna (Feb-2026)
 
 - Käytä AI-palautetta oppimiseen
 - Paranna koodia palautteen perusteella
@@ -239,38 +240,12 @@ Haluatko mennä pidemmälle? Tee pro-level -laajennukset ja saa bonus-pisteitä:
 ### Päämateriaalit:
 
 - ✅ **"Building with Cursor"** – Julkinen opas Cursor AI:sta
-- ✅ **Starter repositories** – Node.js ja Python -mallit
+- ✅ **Starter repository** – Node.js + Express -malli
 - ✅ **Opiskelijaopas** – Quick start -ohjeet
 - ✅ **FAQ** – Usein kysytyt kysymykset
 - ✅ **Checklistit** – Edistymisen seuranta
 
-### Lisätuki (coming soon):
-
-- ✅ **Help-kanava** – Discord/Slack/Teams
-- ✅ **Office hours** – Opettajan vastaanotto (valinnainen)
-- ✅ **RepodIn Dashboard** – Automaattinen AI-palaute
-
 **Kaikki materiaalit:** Ilmaisia ja saatavilla GitHub Classroomissa
-
----
-
-## 🔗 Integraatio R:n Educationiin (coming soon)
-
-Tämä kurssi integroituu **RepodIn Education** -järjestelmään:
-
-### Opiskelijalle (coming soon):
-
-- ✅ **Automaattinen AI-analyysi** – Saat palautteen muutamassa minuutissa
-- ✅ **Selkeät kehitysehdotukset** – Näet mitä parantaa
-- ✅ **Edistymisen seuranta** – Näet oman kehityksesi
-
-### Opettajalle (coming soon):
-
-- ✅ **Aikaa säästävä arviointi** – AI tekee esitarkastuksen
-- ✅ **Keskitetty dashboard** – Näet kaikki palautukset yhdellä silmäyksellä
-- ✅ **Laadukas palaute** – AI antaa rakentavaa palautetta
-
-**R:n Education:** AI-powered management layer GitHub Classroomille
 
 ---
 
@@ -284,9 +259,9 @@ Tämä kurssi integroituu **RepodIn Education** -järjestelmään:
 
 Kurssi on suunniteltu Cursorille, mutta voit käyttää muutakin AI-työkalua. Ohjeet ovat Cursorille optimoituja.
 
-### Tarvitseeko sekä Node.js että Python?
+### Entä jos osaan vain Pythonia, en Node.js:ää?
 
-**Ei.** Valitse toinen: joko Node.js TAI Python. Molemmat toimivat yhtä hyvin. Suosittelen Node.js.
+**Ei hätää!** Kurssi käyttää Node.js:ää, mutta AI (Cursor) opettaa Node.js:n perusteet sinulle kurssin aikana. Keskity AI-työkalujen käyttöön - kieli tulee perässä. Node.js ja JavaScript ovat helposti opittavia, erityisesti AI:n avulla.
 
 ### Miten kurssi eroaa perinteisestä koodauskurssista?
 
@@ -353,7 +328,7 @@ Kurssi on suunniteltu Cursorille, mutta voit käyttää muutakin AI-työkalua. O
 
 - ✅ GitHub-tunnus (ilmainen: [github.com](https://github.com))
 - ✅ Cursor AI (ilmainen versio riittää: [cursor.sh](https://cursor.sh))
-- ✅ Node.js TAI Python (valitse toinen)
+- ✅ Node.js (v18+)
 
 **Tarvitsetko apua?**
 
@@ -368,7 +343,7 @@ Kurssi on suunniteltu Cursorille, mutta voit käyttää muutakin AI-työkalua. O
 
 1. **Varmista edellytykset** – Tarkista että sinulla on tarvittavat työkalut
 2. **Liity kurssiin** – [Lue ohjeet miten liityt kurssiin →](../opiskelija-liity-kurssiin.md)
-3. **Asenna työkalut** – Cursor AI, Node.js/Python, Git
+3. **Asenna työkalut** – Cursor AI, Node.js, Git
 4. **Aloita Moduuli 1** – Lue "Building with Cursor" -opas
 5. **Rakenna ja opi!** – Tee tehtävät ja opi käyttämään AI-työkaluja
 
@@ -395,7 +370,7 @@ https://classroom.github.com/a/zHOCUqGM
 **Tarvitsetko apua?**
 
 - [Lue täydelliset ohjeet miten liityt kurssiin →](./opiskelija-liity-kurssiin.md)
-- [FAQ - Usein kysytyt kysymykset →](./vibe-coding-faq.md)
+- [FAQ - Usein kysytyt kysymykset →](./faq.md)
 
 ---
 
@@ -409,8 +384,6 @@ https://classroom.github.com/a/zHOCUqGM
 
 **Tarvitsetko apua liittymisessä?**
 
-- [Lue täydelliset ohjeet →](./opiskelija-liity-kurssiin.md)
-- [FAQ - Usein kysytyt kysymykset →](./vibe-coding-faq.md)
 - Ota yhteyttä: [support@repodin.com](mailto:support@repodin.com)
 
 ---
@@ -425,13 +398,10 @@ Tämä kurssi opettaa sinut käyttämään AI-työkaluja niin, että saat aikaan
 
 ---
 
-**Kurssin kesto:** 6–10 tuntia
+**Kurssin kesto:** 1–2 viikkoa osa-aikaisesti (6–10 tuntia)
 **Taso:** Aloittelija → Pro-foundations
 **Alusta:** GitHub Classroom
 **Hinta:** Ilmainen (GitHub Classroom + Cursor AI free tier)
 
-**Status:** ✅ Julkaisukelpoinen – Valmis käyttöön!
 
----
-
-_Rakennettu opettajien ja opiskelijoiden kanssa, opettajille ja opiskelijoille._
+-
